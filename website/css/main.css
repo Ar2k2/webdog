@@ -1,4 +1,19 @@
 /* this is to resize the pic cause it was gigantic */
-img {
+.bordered {
     width: 50%;
+    border: 10px solid black;
+    border-radius: 10px;
+}
+a {
+    background-color: rgb(175, 175, 210);
+    border: 5px inset dodgerblue;
+    border-radius: 10px;
+}
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: darkgreen;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(38, 0, 100);
 }

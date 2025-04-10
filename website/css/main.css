@@ -1,19 +1,17 @@
-/* this is to resize the pic cause it was gigantic */
-.bordered {
+* {margin: 10px;}
+div {
+    width: 200px;
+    height: 200px;
+    border: 4px solid green;
+    border-radius: 100%;
+    background-image: url(../imgs/doggy.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+img {
+    border: 4px solid blue;
+    border-radius: 100%;
     width: 50%;
-    border: 10px solid black;
-    border-radius: 10px;
-}
-a {
-    background-color: rgb(175, 175, 210);
-    border: 5px inset dodgerblue;
-    border-radius: 10px;
-}
-h1 {
-    font-family: 'Roboto', sans-serif;
-    color: darkgreen;
-}
-p {
-    font-family: 'Roboto', sans-serif;
-    color: rgb(38, 0, 100);
+    height: 50%;
 }
